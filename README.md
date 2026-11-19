@@ -6,18 +6,20 @@ I build end-to-end web platforms and LLM-powered applications: from React fronte
 
 - 📄 Published at **CLiC-it 2025**: [AI-Driven Resume Analysis and Enhancement Using Semantic Modeling and LLM Feedback Loops](https://aclanthology.org/2025.clicit-1.51/)
 - 🚀 **[Certifyy](https://www.certifyy.in)** is live in production: 2,000+ users and 1,500+ certificates issued across 8+ events
-- 🤖 Interested in **LLMs, RAG, LLM evaluation, and AI for education**
+- 🤖 Interested in **LLMs, RAG, LLM evaluation, AI for education, and digital health**
 - 🛠 Building **production-ready full-stack apps** with FastAPI, Flask, and React
-- 🌱 Currently exploring multi-agent LLM evaluation and AI-assisted development
+- 🩺 Currently building **[OvaScan](https://github.com/chinmayirs10/ovascan)**: ML for women's health (PCOS ultrasound screening), with a focus on **data quality and honest validation**
+- 🌱 Also exploring multi-agent LLM evaluation and AI-assisted development
 
 ---
 
 ## 🚀 Featured Projects
 
-> The source code for these projects is private. Each showcase repo has an overview, the architecture, the tech stack, and the key features.
+> OvaScan is fully open source. For the other projects the source code is private; each showcase repo has an overview, the architecture, the tech stack, and the key features.
 
 | Project | Description | Stack |
 |---|---|---|
+| 🩺 **[OvaScan](https://github.com/chinmayirs10/ovascan)** · 🚧 *in progress* · open source | PCOS ultrasound screening prototype. A data audit found the public dataset's test set duplicated its training set (1,920 of 1,922 images) and came from only ~22 source scans, so I rebuilt it with a **leakage-free split**, a 3-result output with an *inconclusive* band, and a **lifestyle plan based on the 2023 PCOS guideline** | Python · PyTorch · scikit-learn · Streamlit · pytest |
 | 🎓 **[Certifyy](https://github.com/chinmayirs10/certifyy)** · [Live](https://www.certifyy.in) | **2,000+ users · 1,500+ certificates**. All-in-one event platform: registration, QR check-in, and **verifiable digital certificates** | React · TypeScript · FastAPI · Firebase · AWS |
 | 📄 **[AI Resume Analyser](https://github.com/chinmayirs10/ai-resume-analyser)** · [Paper](https://aclanthology.org/2025.clicit-1.51/) | Hybrid ATS scoring (semantic + keyword) with LLM-generated resume improvements and a fairness evaluation | React · Flask · Sentence-BERT · KeyBERT · Llama 3.2 · GPT-4o |
 | 📚 **[LLM Tutor](https://github.com/chinmayirs10/llm-tutor)** | Turns any document into a course, with RAG-grounded Q&A, an emotion-aware tutor, and audio narration | React · Flask · ChromaDB · GPT-4o · AWS Polly |
@@ -51,7 +53,9 @@ I build end-to-end web platforms and LLM-powered applications: from React fronte
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 **Cloud & Tools**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
